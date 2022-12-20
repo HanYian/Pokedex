@@ -7,23 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D58EF16294F4892004CDA35 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D58EF15294F4892004CDA35 /* PokemonCell.swift */; };
 		3D9DDA77294CF2E20047F32F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDA76294CF2E20047F32F /* AppDelegate.swift */; };
 		3D9DDA79294CF2E20047F32F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDA78294CF2E20047F32F /* SceneDelegate.swift */; };
-		3D9DDA7B294CF2E20047F32F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDA7A294CF2E20047F32F /* ViewController.swift */; };
 		3D9DDA7E294CF2E20047F32F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9DDA7C294CF2E20047F32F /* Main.storyboard */; };
 		3D9DDA80294CF2E40047F32F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D9DDA7F294CF2E40047F32F /* Assets.xcassets */; };
 		3D9DDA83294CF2E40047F32F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9DDA81294CF2E40047F32F /* LaunchScreen.storyboard */; };
+		3D9DDA8B294CF31E0047F32F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDA8A294CF31E0047F32F /* TableViewController.swift */; };
+		3D9DDA8D294CF3450047F32F /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDA8C294CF3450047F32F /* Pokemon.swift */; };
+		3D9DDA8F294CF36E0047F32F /* PokemonImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9DDA8E294CF36E0047F32F /* PokemonImage.swift */; };
+		3D9DDA96294CF4B20047F32F /* generated.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D9DDA95294CF4B20047F32F /* generated.json */; };
+		3D9DDA9C294CFD5F0047F32F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 3D9DDA9B294CFD5F0047F32F /* Kingfisher */; };
+		3DD19E682950B0BD002DC321 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD19E672950B0BD002DC321 /* ViewController.swift */; };
+		3DD19E6A2950BD97002DC321 /* PokemonDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD19E692950BD97002DC321 /* PokemonDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D58EF15294F4892004CDA35 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 		3D9DDA73294CF2E20047F32F /* PokemonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9DDA76294CF2E20047F32F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9DDA78294CF2E20047F32F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3D9DDA7A294CF2E20047F32F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D9DDA7D294CF2E20047F32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D9DDA7F294CF2E40047F32F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D9DDA82294CF2E40047F32F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D9DDA84294CF2E40047F32F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D9DDA8A294CF31E0047F32F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		3D9DDA8C294CF3450047F32F /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		3D9DDA8E294CF36E0047F32F /* PokemonImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonImage.swift; sourceTree = "<group>"; };
+		3D9DDA95294CF4B20047F32F /* generated.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = generated.json; sourceTree = "<group>"; };
+		3DD19E672950B0BD002DC321 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DD19E692950BD97002DC321 /* PokemonDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D9DDA9C294CFD5F0047F32F /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,13 +72,51 @@
 			children = (
 				3D9DDA76294CF2E20047F32F /* AppDelegate.swift */,
 				3D9DDA78294CF2E20047F32F /* SceneDelegate.swift */,
-				3D9DDA7A294CF2E20047F32F /* ViewController.swift */,
-				3D9DDA7C294CF2E20047F32F /* Main.storyboard */,
-				3D9DDA7F294CF2E40047F32F /* Assets.xcassets */,
+				3DD19E642950AE5B002DC321 /* Model */,
+				3DD19E652950AE7F002DC321 /* View */,
+				3DD19E662950AEA1002DC321 /* Controller */,
 				3D9DDA81294CF2E40047F32F /* LaunchScreen.storyboard */,
 				3D9DDA84294CF2E40047F32F /* Info.plist */,
+				3D9DDA7F294CF2E40047F32F /* Assets.xcassets */,
+				3D9DDA92294CF3E20047F32F /* New Group */,
 			);
 			path = PokemonApp;
+			sourceTree = "<group>";
+		};
+		3D9DDA92294CF3E20047F32F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3D9DDA95294CF4B20047F32F /* generated.json */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3DD19E642950AE5B002DC321 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D9DDA8C294CF3450047F32F /* Pokemon.swift */,
+				3D9DDA8E294CF36E0047F32F /* PokemonImage.swift */,
+				3DD19E692950BD97002DC321 /* PokemonDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DD19E652950AE7F002DC321 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D9DDA7C294CF2E20047F32F /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DD19E662950AEA1002DC321 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D58EF15294F4892004CDA35 /* PokemonCell.swift */,
+				3DD19E672950B0BD002DC321 /* ViewController.swift */,
+				3D9DDA8A294CF31E0047F32F /* TableViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,9 @@
 			dependencies = (
 			);
 			name = PokemonApp;
+			packageProductDependencies = (
+				3D9DDA9B294CFD5F0047F32F /* Kingfisher */,
+			);
 			productName = PokemonApp;
 			productReference = 3D9DDA73294CF2E20047F32F /* PokemonApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = 3D9DDA6A294CF2E20047F32F;
+			packageReferences = (
+				3D9DDA9A294CFD5F0047F32F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 3D9DDA74294CF2E20047F32F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9DDA83294CF2E40047F32F /* LaunchScreen.storyboard in Resources */,
+				3D9DDA96294CF4B20047F32F /* generated.json in Resources */,
 				3D9DDA80294CF2E40047F32F /* Assets.xcassets in Resources */,
 				3D9DDA7E294CF2E20047F32F /* Main.storyboard in Resources */,
 			);
@@ -138,9 +197,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D9DDA7B294CF2E20047F32F /* ViewController.swift in Sources */,
 				3D9DDA77294CF2E20047F32F /* AppDelegate.swift in Sources */,
+				3D9DDA8F294CF36E0047F32F /* PokemonImage.swift in Sources */,
+				3DD19E6A2950BD97002DC321 /* PokemonDetail.swift in Sources */,
+				3D9DDA8D294CF3450047F32F /* Pokemon.swift in Sources */,
+				3D9DDA8B294CF31E0047F32F /* TableViewController.swift in Sources */,
+				3DD19E682950B0BD002DC321 /* ViewController.swift in Sources */,
 				3D9DDA79294CF2E20047F32F /* SceneDelegate.swift in Sources */,
+				3D58EF16294F4892004CDA35 /* PokemonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +351,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "PokemonApp/New\\ Group";
 				DEVELOPMENT_TEAM = G347QPYF8F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokemonApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pokedex;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,9 +381,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "PokemonApp/New\\ Group";
 				DEVELOPMENT_TEAM = G347QPYF8F;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PokemonApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pokedex;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +426,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3D9DDA9A294CFD5F0047F32F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3D9DDA9B294CFD5F0047F32F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3D9DDA9A294CFD5F0047F32F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D9DDA6B294CF2E20047F32F /* Project object */;
 }
