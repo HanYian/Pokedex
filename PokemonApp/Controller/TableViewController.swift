@@ -16,6 +16,7 @@ class TableViewController: UITableViewController {
         super.viewDidLoad()
         fetchData()
         fetchImage()
+        
     }
     
     func fetchImage() {
@@ -73,4 +74,5 @@ class TableViewController: UITableViewController {
         controller?.detailUrl = pokemon[tableView.indexPathForSelectedRow!.row].url
         return controller
     }
+    
 }
